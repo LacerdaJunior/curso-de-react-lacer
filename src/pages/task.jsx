@@ -10,7 +10,7 @@ function TaskPage() {
 
   return (
     <div className="h-screen w-screen  bg-slate-800 p-6">
-      <div className="w-[500px] space-y-4">
+      <div className="w-[500px] mx-auto space-y-4">
         <div className="flex justify-center relative mb-6">
           <button
             onClick={() => navigate(-1)}
@@ -22,8 +22,8 @@ function TaskPage() {
         </div>
 
         <div className="bg-slate-600 p-4 rounded-md flex-col space-y-1 ">
-          <h2 className="text-xl font-bold text-slate-900">{title}</h2>
-          <p className="text-slate-800">{description}</p>
+          <h2 className="text-2xl font-bold text-slate-900">{title}</h2>
+          <p className="text-slate-200 text-lg">{description}</p>
         </div>
       </div>
     </div>
